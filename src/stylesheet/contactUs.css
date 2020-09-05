@@ -1,0 +1,67 @@
+.contact-section {
+    background-color: lightgray;
+    margin-top: 30px;
+}
+
+.contact {
+    padding: 3em;
+}
+
+.contact h2 {
+    font-weight: bold;
+    border-bottom: 1px solid slategrey;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.contact-form {
+    margin-top: 2em;
+}
+
+.contact-form .field-label{
+    font-weight: bold;
+}
+
+
+.social-media {
+    margin-top:50px;
+}
+
+.social-media h5{
+    font-weight: bold;
+}
+
+.social-media .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    margin: 5px 2px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}

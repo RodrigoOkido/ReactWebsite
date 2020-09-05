@@ -1,0 +1,15 @@
+#featuresSection {
+    border-bottom: 1px solid lightgray;
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    height: 360px;
+}
+
+.about img {
+    width: 350px;
+}
