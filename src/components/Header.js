@@ -1,11 +1,23 @@
 import React from 'react';
 import Navbar from './Navbar';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import '../stylesheet/header.css';
 
+
+/**
+ * Header component. (Function based component)
+ */
 const Header = () => {  
     return (    
         <React.Fragment>
-            <Navbar />
+            <BrowserRouter>
+                <Switch>
+                    <Route path="/" exact component={Navbar} />
+                    <Route path="/#client" exact component={Navbar} />
+                    <Route path="/#about" exact component={Navbar} />
+                    <Route path="/#contact" exact component={Navbar} />
+                </Switch>
+            </BrowserRouter>
             <div className="headerPage" >
                 <div className="header-title-description">
                     <h1>Welcome to our Website!</h1>

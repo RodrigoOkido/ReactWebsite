@@ -4,9 +4,12 @@ import ClientCard from './ClientCard';
 import '../stylesheet/ourClients.css'
 
 
+/**
+ * OurFeatures component. (Function based component)
+ */
 const OurFeatures = () => {  
     return (    
-        <div className="clients">
+        <div className="clients" id="client">
             <h3>Our Clients</h3>
             <div className="container">
                 <div className="row">

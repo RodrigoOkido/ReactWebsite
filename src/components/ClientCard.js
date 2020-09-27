@@ -1,6 +1,13 @@
 import React from 'react';
 import '../stylesheet/clientCard.css'
 
+
+/**
+ * CliendCard component. (Function based component)
+ * 
+ * @param {*} props Receives the image source of the client and some information
+ *                  about the card. Title and description.
+ */
 const ClientCard = (props) => {
 
     return (

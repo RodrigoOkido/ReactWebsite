@@ -1,61 +1,32 @@
 import React from 'react';
-import {BrowserRouter, Route, Link} from 'react-router-dom';
 
 
+/**
+ * Navbar component. (Class based component)
+ */
 class Navbar extends React.Component {
-
-    // Home Section route
-    homeSection = () => {
-      return (
-        <React.Fragment>
-          <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
-        </React.Fragment>
-      );
-    }
-
-    
-    // About Section route
-    aboutSection = () => {
-      return (
-        <React.Fragment>
-          <Link className="nav-link" to="/#about">About Us </Link>
-        </React.Fragment>
-      );
-    }
-
-
-    // Contact Section route
-    contactSection = () => {
-      return (
-        <React.Fragment>
-          <Link className="nav-link" to="/#contact">Contact</Link>
-        </React.Fragment>
-      );
-    }
-
 
     // Render function
     render () {
       return(
-        <BrowserRouter>
-          <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item active">
-                    <Route path="/" exact component={this.homeSection} />
+                    <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                   </li>
                   <li className="nav-item">
-                    <Route path="/#about" exact component={this.aboutSection} />
+                    <a className="nav-link" href="/#client">Our Clients</a>
                   </li>
                   <li className="nav-item">
-                    <Route path="/#contact" exact component={this.contactSection} />
+                    <a className="nav-link" href="/#about">About Us </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="/#contact">Contact</a>
                   </li>
                 </ul>
               </div>
             </nav>        
-          </div>
-        </BrowserRouter>
       )
     }
 }

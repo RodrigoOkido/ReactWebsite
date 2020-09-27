@@ -1,11 +1,14 @@
 import React from 'react';
-import Faker from 'faker';
 import '../stylesheet/aboutUs.css';
 import FeatureCard from './FeatureCard';
 
+
+/**
+ * AboutUs component. (Function based component)
+ */
 const AboutUs = () => {  
     return (    
-        <div className="container">
+        <div className="container" id="about">
             <h2 id='featuresSection'>Our Features</h2>
             <div className="row about">
                 <FeatureCard

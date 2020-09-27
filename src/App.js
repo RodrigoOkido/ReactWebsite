@@ -4,6 +4,7 @@ import OurFeatures from './components/OurFeatures'
 import AboutUs from './components/AboutUs'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
+import './stylesheet/app.css'
 
 const App = () => {
 

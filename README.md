@@ -1,24 +1,25 @@
 ## Description
 
 Simple project website developed in React. This project was developed using create-react-app package.<br />You can check more about create-react-app below.
-
+<br />
 <br />
 Technologies Used:
+
 - React v16.13.1
 - Bootstrap v4.5.2
 - Nodejs v10.19.0
 <br />
 <br />
+
 Nodes packages used (npm): 
+
 - faker
 - react
 - react-dom
 - react-router-dom
 - react-scripts
-
 <br />
 <br />
-## Description genereted by create-react-app.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

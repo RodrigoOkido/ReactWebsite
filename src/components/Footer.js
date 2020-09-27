@@ -1,6 +1,10 @@
 import React from 'react';
 import '../stylesheet/footer.css'
 
+
+/**
+ * Footer component. (Function based component)
+ */
 const Footer = () => {
 
     return (
