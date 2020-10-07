@@ -1,7 +1,16 @@
+# React website - Example
+
+Simple website project developed in React. <br />
+You can check a more complex react website example [here](https://github.com/RodrigoOkido/ReactTravelWebsite).
+
+
 ## Description
 
-Simple website project developed in React. This project was built to demonstrate how you can create a website using React.
-It use class based components, function based components and react states. Use 'faker' package to generate randomic images and bootstrap 4.5.2 for the page design. This project is under MIT license.
+This project was built to demonstrate how you can create a website using React.
+It use class based components, function based components and react states. Its using 'faker' package to generate randomic images and bootstrap 4.5.2 for the page design. All informations on the page are generic and the page design is **NOT** supposed to be ideal or professional. It must be modified for this purpose. This project is under MIT license. You can check more about MIT license [here](https://github.com/RodrigoOkido/ReactWebsite/blob/master/LICENSE).
+
+
+**Live website:** 
 
 
 This project was developed using create-react-app node package.<br />You can check more about create-react-app below. 
@@ -12,8 +21,7 @@ Technologies Used:
 - React v16.13.1
 - Bootstrap v4.5.2
 - Nodejs v10.19.0
-<br />
-<br />
+
 
 Nodes packages used (npm): 
 
@@ -22,12 +30,13 @@ Nodes packages used (npm):
 - react-dom
 - react-router-dom
 - react-scripts
-<br />
-<br />
 
-Header image used: [Pixabay](https://pixabay.com/photos/kuala-lumpur-twins-malaysia-1820944/)
-The image is under Pixabay License and according to the license, the image is free to use and dont require attribution. 
+
+
+Header image used: [Pixabay](https://pixabay.com/photos/kuala-lumpur-twins-malaysia-1820944/) <br />
+The image is under Pixabay License. According to the license, the image is free to use and dont require attribution. 
 But feel free to support the image author =).
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
