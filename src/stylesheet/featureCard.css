@@ -1,4 +1,9 @@
 #ftImg {
     width: 80%;
     border-radius: 50%;
+    transition: 0.5s;
+}
+
+#ftImg:hover {
+    width: 90%;
 }

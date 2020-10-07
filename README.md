@@ -1,6 +1,10 @@
 ## Description
 
-Simple project website developed in React. This project was developed using create-react-app package.<br />You can check more about create-react-app below.
+Simple website project developed in React. This project was built to demonstrate how you can create a website using React.
+It use class based components, function based components and react states. Use 'faker' package to generate randomic images and bootstrap 4.5.2 for the page design. This project is under MIT license.
+
+
+This project was developed using create-react-app node package.<br />You can check more about create-react-app below. 
 <br />
 <br />
 Technologies Used:
@@ -20,6 +24,10 @@ Nodes packages used (npm):
 - react-scripts
 <br />
 <br />
+
+Header image used: [Pixabay](https://pixabay.com/photos/kuala-lumpur-twins-malaysia-1820944/)
+The image is under Pixabay License and according to the license, the image is free to use and dont require attribution. 
+But feel free to support the image author =).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
