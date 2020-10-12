@@ -18,6 +18,7 @@ const Header = () => {
                     <Route path="/#contact" exact component={Navbar} />
                 </Switch>
             </BrowserRouter>
+            <Navbar />
             <div className="headerPage" >
                 <div className="header-title-description">
                     <h1>Welcome to our Website!</h1>
